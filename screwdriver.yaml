@@ -1,0 +1,27 @@
+shared:
+    image: node:10
+
+jobs:
+    main:
+        requires: [~pr, ~commit]
+        steps:
+            - step1:  sleep 5 && echo ok
+            - step2:  sleep 5 && echo ok
+            - step3:  sleep 5 && echo ok
+            - step4:  sleep 5 && echo ok
+            - step5:  sleep 5 && echo ok
+            - step6:  sleep 5 && echo ok
+            - step7:  sleep 5 && echo ok
+            - step8:  sleep 5 && echo ok
+            - step9:  sleep 5 && echo ok
+            - step10: sleep 5 && echo ok
+            - step11: sleep 5 && echo ok
+            - step12: sleep 5 && echo ok
+            - step13: sleep 5 && echo ok
+            - step14: sleep 5 && echo ok
+            - step15: sleep 5 && echo ok
+            - step16: sleep 5 && echo ok
+            - step17: sleep 5 && echo ok
+            - step18: sleep 5 && echo ok
+            - step19: sleep 5 && echo ok
+            - step20: sleep 5 && echo ok
