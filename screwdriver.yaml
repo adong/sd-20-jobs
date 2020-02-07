@@ -5,7 +5,7 @@ jobs:
     main:
         requires: [~pr, ~commit]
         steps:
-            - step1:  sleep 5 && echo ok
+            - step1:  sleep 300 && echo ok
             - step2:  sleep 5 && echo ok
             - step3:  sleep 5 && echo ok
             - step4:  sleep 5 && echo ok
