@@ -1,5 +1,5 @@
 shared:
-    image: node:10
+    image: node:12
 
 jobs:
     main:
